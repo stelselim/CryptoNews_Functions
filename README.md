@@ -1,5 +1,5 @@
 ## Crypto News Functions 
---- 
+
 #### This project, for getting latest crypto news every 1 hour & saving the news for later usage.
 
 <br/>
@@ -13,7 +13,7 @@ The project has 2 different cloud functions.
 <br/>
 
 ## Provider 
---- 
+
 Crypto news is fetched from Crypto Panic. Further reading [here](https://cryptopanic.com/developers/api/).
 - API Key required.
     - required as environment variable.
@@ -25,7 +25,7 @@ Crypto news is fetched from Crypto Panic. Further reading [here](https://cryptop
 
 
 ## How To Run
---- 
+
 
 Before running, required API key as environment variable.
 
@@ -36,7 +36,7 @@ npm install
 npm run serve.
 ```
 ## How Deploy
---- 
+
 
 ```
 npm run deploy
