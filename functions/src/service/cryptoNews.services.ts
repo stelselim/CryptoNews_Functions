@@ -16,7 +16,7 @@ function timeout(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-/// For 5 request in one second.
+/// API LIMIT: 5 request in one second.
 const cryptoNewsGetService = async (): Promise<INewsArticleEntity[]> => {
   const data: INewsArticleEntity[] = [];
   // Read 100 Count
